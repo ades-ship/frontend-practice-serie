@@ -7,6 +7,7 @@ function App() {
       <Link to="/home" className="block p-5 bg-neutral-100">
         <div className="bg-neutral-500 p-5">
           <h1 className="font-bold text-black text-sm">hello world</h1>
+          <h1 className="font-bold text-black text-sm">hello adesh</h1>
         </div>
       </Link>
     </BrowserRouter>

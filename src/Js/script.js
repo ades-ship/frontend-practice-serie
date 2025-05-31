@@ -29,6 +29,7 @@ const {age,...rest}=student;
 console.log(rest);
 
 
+
 // spread operator in case of object
 const newStudent={...student,age:25}
 console.log(newStudent)
