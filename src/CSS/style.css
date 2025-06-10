@@ -45,6 +45,52 @@
     background-color: brown;
     box-sizing: border-box;
     display: block;
-    
 
+
+}
+#box1{
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin:20px;
+    box-sizing: border-box;;
+    display: block;
+}
+#box2{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 60px;
+    left: 20px;
+    background-color: yellow;
+    margin:20px;
+    box-sizing: border-box;;
+    display: block;
+    z-index: 1;
+}
+#box3{
+    position: absolute;
+    width: 100px;
+    top: 20px;
+    left: 60px;
+    height: 100px;
+    background-color: gray;
+    margin:20px;
+    box-sizing: border-box;;
+    display: block;
+    font-size: 1rem;
+    z-index: 2;
+}
+#box4{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin:20px;
+    box-sizing: border-box;;
+    display: block;
+    font-size: 1rem;
+    top:60px;
+    left: 20px;
 }
